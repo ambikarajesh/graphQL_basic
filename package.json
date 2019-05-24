@@ -1,0 +1,31 @@
+{
+  "name": "graphql_basic",
+  "version": "1.0.0",
+  "description": "learning content of GraphQL in Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "server:json": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambikarajesh/graphQL_bisic.git"
+  },
+  "author": "Ambika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambikarajesh/graphQL_bisic/issues"
+  },
+  "homepage": "https://github.com/ambikarajesh/graphQL_bisic#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.17.0",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
